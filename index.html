@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanium Gym Gear - Premium Fitness Equipment</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Montserrat', sans-serif; background: #1A1A2E; color: #fff; }
+        header { background: #16213e; padding: 20px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; color: #FFD700; }
+        nav ul { display: flex; list-style: none; gap: 30px; }
+        nav a { color: #fff; text-decoration: none; transition: 0.3s; }
+        nav a:hover { color: #FFD700; }
+        .hero { background: linear-gradient(135deg, #1A1A2E 0%, #16213e 100%); padding: 100px 0; text-align: center; }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; color: #FFD700; }
+        .hero p { font-size: 20px; margin-bottom: 30px; }
+        .btn { display: inline-block; padding: 12px 30px; background: #FFD700; color: #1A1A2E; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px; transition: 0.3s; }
+        .btn:hover { background: #FFC700; transform: scale(1.05); }
+        .products { padding: 60px 0; }
+        .section-title { font-size: 36px; margin-bottom: 40px; text-align: center; color: #FFD700; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .product-card { background: #16213e; padding: 20px; border-radius: 8px; text-align: center; transition: transform 0.3s; }
+        .product-card:hover { transform: translateY(-10px); }
+        .product-price { color: #FFD700; font-size: 24px; font-weight: bold; margin: 15px 0; }
+        .product-category { font-size: 12px; color: #FFD700; text-transform: uppercase; margin-bottom: 10px; }
+        .rating { color: #FFD700; margin: 10px 0; }
+        footer { background: #0F3460; padding: 30px 0; text-align: center; margin-top: 60px; border-top: 2px solid #FFD700; }
+        .contact-form { max-width: 600px; margin: 40px auto; background: #16213e; padding: 30px; border-radius: 8px; }
+        .form-group { margin-bottom: 20px; }
+        .form-group input, .form-group textarea { width: 100%; padding: 10px; background: #0F3460; color: #fff; border: 1px solid #FFD700; border-radius: 4px; }
+        .form-group textarea { resize: vertical; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">💪 TITANIUM.</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">🛒 Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Forge Your Dream Physique</h1>
+            <p>Premium equipment for serious athletes. From heavy-duty iron to professional-grade accessories, we have everything you need.</p>
+            <a href="#shop" class="btn">Shop Collection</a>
+            <a href="#shop" class="btn" style="background: #0F3460; color: #FFD700; border: 2px solid #FFD700;">View Categories →</a>
+        </div>
+    </section>
+
+    <section id="shop" class="products container">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-category">Dumbbells</div>
+                <h3>Adjustable Dumbbell Set (5-25 lbs)</h3>
+                <p>Professional grade cast iron dumbbells with grip handles</p>
+                <div class="product-price">$249.99</div>
+                <div class="rating">★★★★★ (324 reviews)</div>
+                <button class="btn" style="width: 100%;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-category">Resistance Bands</div>
+                <h3>Tube Resistance Bands with Handles</h3>
+                <p>Set of 4 different resistance levels for effective training</p>
+                <div class="product-price">$45.00</div>
+                <div class="rating">★★★★★ (189 reviews)</div>
+                <button class="btn" style="width: 100%;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-category">Yoga Mats</div>
+                <h3>Eco-Friendly Cork Yoga Mat</h3>
+                <p>Natural cork with TPE base, 6mm thickness</p>
+                <div class="product-price">$59.99</div>
+                <div class="rating">★★★★☆ (156 reviews)</div>
+                <button class="btn" style="width: 100%;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-category">Supplements</div>
+                <h3>Gold Standard Whey Protein</h3>
+                <p>Premium whey isolate powder, 2lbs, Vanilla flavor</p>
+                <div class="product-price">$79.99</div>
+                <div class="rating">★★★★★ (412 reviews)</div>
+                <button class="btn" style="width: 100%;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-category">Equipment</div>
+                <h3>Adjustable Weight Bench</h3>
+                <p>Multi-position weight bench with heavy-duty frame</p>
+                <div class="product-price">$349.99</div>
+                <div class="rating">★★★★★ (287 reviews)</div>
+                <button class="btn" style="width: 100%;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-category">Apparel</div>
+                <h3>Titanium Gym T-Shirt</h3>
+                <p>Premium 100% cotton, moisture-wicking performance wear</p>
+                <div class="product-price">$34.99</div>
+                <div class="rating">★★★★★ (156 reviews)</div>
+                <button class="btn" style="width: 100%;">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container" style="padding: 60px 0;">
+        <h2 class="section-title">About Titanium Gym Gear</h2>
+        <p style="text-align: center; font-size: 18px; max-width: 800px; margin: 0 auto;">We are dedicated to providing world-class gym equipment and accessories to fitness enthusiasts. With over 10,000 satisfied customers worldwide, our mission is to help you achieve your fitness goals with premium quality equipment at competitive prices.</p>
+    </section>
+
+    <section id="contact" class="container" style="padding: 60px 0;">
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact-form" onsubmit="alert('Thank you for your message!'); return false;">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Titanium Gym Gear. All rights reserved. | Premium Fitness Equipment</p>
+            <p style="margin-top: 10px;">Follow us: Facebook | Instagram | Twitter</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple cart functionality
+        let cartCount = 0;
+        document.querySelectorAll('.btn').forEach(btn => {
+            if (btn.textContent.includes('Add to Cart')) {
+                btn.addEventListener('click', function() {
+                    cartCount++;
+                    alert('Item added to cart! Cart total: ' + cartCount);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
